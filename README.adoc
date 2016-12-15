@@ -176,3 +176,10 @@ Congratulations! You built a batch job that ingested data from a spreadsheet, pr
 
 include::https://raw.githubusercontent.com/spring-guides/getting-started-macros/master/footer.adoc[]
 
+== Do Test!
+
+Just do one test to "gs-batch-processing.complete" with config mysql database!
+----
+IDEA, Gradle, jdk 1.7, Mysql
+----
+

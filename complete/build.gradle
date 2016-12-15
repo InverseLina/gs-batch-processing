@@ -21,12 +21,13 @@ repositories {
     mavenCentral()
 }
 
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-batch")
-    compile("org.hsqldb:hsqldb")
+    compile 'mysql:mysql-connector-java:+'
+    compile 'com.zaxxer:HikariCP:+'
     testCompile("junit:junit")
 }
 
